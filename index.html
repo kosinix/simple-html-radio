@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple HTML Radio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="simple-html-radio/simple-html-radio.css">
+    <link rel="stylesheet" href="css/demo.css">
+        
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="simple-html-radio/simple-html-radio.min.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function(){
+        $('.replace-radio').simpleHtmlRadio();
+    });
+    </script>
+</head>
+
+<body>
+	<div class="container">
+		<h1>Simple HTML Radio</h1>
+		
+		<h2>Demo</h2>
+		<form action="">
+			<h3>Native Radio Buttons</h3>
+			<p>Appearance depends on your OS</p>
+			<div class="radio clearfix">
+				<input type="radio" name="native_radio" id="native_radio-1" value="1" checked>
+				<label for="native_radio-1">Option 1</label>
+			</div>
+			<div class="radio clearfix">
+				<input type="radio" name="native_radio" id="native_radio-2" value="2">
+				<label for="native_radio-2">Option 1</label>
+			</div>
+			
+			<h3>Example 1: Simple HTML Radio</h3>
+			<div class="radio clearfix">
+				<input type="radio" class="replace-radio" name="example_option_1" id="example_option_1-1" value="1" checked>
+				<label for="example_option_1-1">Option 1</label>
+			</div>
+			<div class="radio clearfix">
+				<input type="radio" class="replace-radio" name="example_option_1" id="example_option_1-2" value="2" >
+				<label for="example_option_1-2">Option 2</label>
+			</div>
+			
+			<h3>Example 2: Tab Support</h3>
+			<p>Place focus on textbox and hit Tab key.</p>
+			<p><input type="text"></p>
+			<div class="radio clearfix">
+				<input type="radio" class="replace-radio" name="example_option_2" id="example_option_2-1" value="1" checked>
+				<label for="example_option_2-1">Option 1 - Hit Spacebar to select</label>
+			</div>
+			<div class="radio clearfix">
+				<input type="radio" class="replace-radio" name="example_option_2" id="example_option_2-2" value="2" >
+				<label for="example_option_2-2">Option 2 - Hit Spacebar to select</label>
+			</div>
+			<div class="radio clearfix">
+				<input type="radio" class="replace-radio" name="example_option_2" id="example_option_2-3" value="3" >
+				<label for="example_option_2-3">Option 3 - Hit Spacebar to select</label>
+			</div>
+			
+			<h3>Example 3: Keyboard Navigation</h3>
+			<p>Put focus on one of the radio buttons and use Left, Right, Up and Down to navigate.</p>
+			
+			<div class="radio clearfix">
+				<input type="radio" class="replace-radio" name="example_option_3" id="example_option_3-1" value="1" checked>
+				<label for="example_option_3-1">Option 1</label>
+			</div>
+			<div class="radio clearfix">
+				<input type="radio" class="replace-radio" name="example_option_3" id="example_option_3-2" value="2" >
+				<label for="example_option_3-2">Option 2</label>
+			</div>
+			<div class="radio clearfix">
+				<input type="radio" class="replace-radio" name="example_option_3" id="example_option_3-3" value="3" >
+				<label for="example_option_3-3">Option 3</label>
+			</div>
+			<br>
+			<input type="submit" value="Submit Form">
+		</form>
+	</div>
+</body>
+</html>
