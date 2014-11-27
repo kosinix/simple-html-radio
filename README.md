@@ -5,7 +5,7 @@ Simple HTML Radio is a jQuery plugin that helps in styling native radio buttons.
 
 ### Features
 
-* Lightweight, tabbable, supports keyboard navigation and simple.
+* Simple, lightweight, accessible, supports keyboard navigation.
 
 ### Links
 
