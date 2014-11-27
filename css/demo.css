@@ -1,0 +1,53 @@
+.clear{
+    clear:both;
+    display: block;
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+body {
+    text-align: center;
+}
+
+.container {
+    text-align: left;
+    margin: 0 auto;
+    max-width: 1000px;
+    padding: 20px 0;
+}
+
+.radio {
+    margin-bottom: 9px;
+}
+.radio input[type="radio"],
+.radio label,
+.radio .simple-html-radio{
+    float: left;
+}
+
+.radio input[type="radio"]{
+    margin: 3px 8px 0 0;
+}
+.radio label{
+    font-size: 15px;
+    line-height: 20px;
+}
+
+input[type="submit"] {
+    margin-top: 40px;
+}
+
+h3 {
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-top: 0;
+}
