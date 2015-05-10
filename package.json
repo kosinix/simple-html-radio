@@ -1,0 +1,27 @@
+{
+  "name": "simple-html-radio",
+  "version": "1.0.0",
+  "description": "A jQuery plugin that helps in styling native radio buttons by hiding and replacing it with a span element that can be styled easily. The script gracefully degrades, tabbable, and supports keyboard navigation.",
+  "main": "simple-html-radio/simple-html-radio.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kosinix/simple-html-radio.git"
+  },
+  "keywords": [
+    "jquery-plugin",
+    "ecosystem:jquery",
+    "simple-html-radio",
+    "tabbable",
+    "keyboard",
+    "graceful-degradation"
+  ],
+  "author": "Nico Amarilla",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kosinix/simple-html-radio/issues"
+  },
+  "homepage": "https://github.com/kosinix/simple-html-radio"
+}
