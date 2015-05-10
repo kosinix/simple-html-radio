@@ -10,3 +10,6 @@ Simple HTML Radio is a jQuery plugin that helps in styling native radio buttons.
 ### Links
 
 * [Home Page](http://www.kosinix.com/simple-html-radio/)
+
+### License
+* [MIT](http://www.kosinix.com/simple-html-radio/blob/master/LICENSE)
